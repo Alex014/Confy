@@ -11,7 +11,7 @@ many configuration files can be loaded
 * `Confy::getAll()` 
 ### Plugins
 * All plugins are located in `/src/Parser` directory.
-* All plugins must be named by Capitalized file extension (Ini.php -< .ini).
+* All plugins must be named by Capitalized file extension (Ini.php -> .ini).
 * All plugin classes must implement `\Confy\Interfaces\Parser` interface
 ### Run tests
 * Install PHPUnit `wget -O phpunit https://phar.phpunit.de/phpunit-9.phar` and `chmod +x phpunit`
