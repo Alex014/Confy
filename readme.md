@@ -1,6 +1,13 @@
 ## Confy the configuration utility
-### Install
+### Instalation and usage
 `composer require alex014/confy`
+```
+<?php
+use \Confy\Confy;
+Confy::load('config/database.ini');
+echo Confy::get('login');
+print_r(Confy::getAll());
+```
 ### Methods
 * `Confy::load(string $filename)` load configuration file (ini, json, php, yaml formats are supported), 
 many configuration files can be loaded
