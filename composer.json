@@ -1,0 +1,13 @@
+{
+    "name": "confy/confy",
+    "description": "Confy the configuration utility",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex014",
+            "email": "aleksej000@gmail.com"
+        }
+    ],
+    "require": {}
+}
