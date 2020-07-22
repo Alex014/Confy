@@ -1,4 +1,6 @@
 ## Confy the configuration utility
+### Install
+`composer require alex014/confy`
 ### Methods
 * `Confy::load(string $filename)` load configuration file (ini, json, php, yaml formats are supported), 
 many configuration files can be loaded

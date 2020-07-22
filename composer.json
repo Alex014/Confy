@@ -1,6 +1,9 @@
 {
     "name": "alex014/confy",
     "description": "Confy the configuration utility",
+    "keywords": [
+        "configaration"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,5 +12,13 @@
             "email": "aleksej000@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Confy\\Confy\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "test/"
+        ]
+    },
     "require": {}
 }
