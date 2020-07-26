@@ -20,5 +20,7 @@
             "test/"
         ]
     },
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }
