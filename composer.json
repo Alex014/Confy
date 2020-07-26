@@ -1,5 +1,6 @@
 {
     "name": "alex014/confy",
+    "version": "1.0",
     "description": "Confy the configuration utility",
     "keywords": [
         "configaration"
