@@ -1,11 +1,13 @@
 {
     "name": "alex014/confy",
+    "version": "1.0",
     "description": "Confy the configuration utility",
     "keywords": [
         "configaration"
     ],
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Alex014",
@@ -20,5 +22,7 @@
             "test/"
         ]
     },
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }
