@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Confy\\Confy\\": "src/"
+            "Confy\\": "src/"
         },
         "exclude-from-classmap": [
             "test/"
